@@ -1,4 +1,4 @@
-function fun()
+function activateaboutblank()
 var urlobj = new window.URL(window.location.href);
         let url = prompt("url?")
         if (url) {
