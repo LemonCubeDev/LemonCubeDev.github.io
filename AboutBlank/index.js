@@ -1,8 +1,9 @@
+function fun()
 var urlobj = new window.URL(window.location.href);
         let url = prompt("url?")
         if (url) {
             var win;
-            document.querySelector('button'). onclick = function() {
+            document.querySelector('.open'). onclick = function() {
             if (win) {
             win.focus();
         }
