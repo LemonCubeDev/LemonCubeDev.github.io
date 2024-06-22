@@ -11,6 +11,13 @@ html, body {
     background-color: #ffdfb7;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
 .my-btn {
     background-color: #ef6c00;
     color: white;
